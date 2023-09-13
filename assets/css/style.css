@@ -246,7 +246,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#home {
   width: 100%;
   height: 100vh;
   background: url("../img/hero-bg.jpeg") top right;
@@ -254,7 +254,7 @@ h6 {
   position: relative;
 }
 
-#hero:before {
+#home:before {
   content: "";
   background: rgba(5, 13, 24, 0.6);
   position: absolute;
@@ -264,7 +264,7 @@ h6 {
   right: 0;
 }
 
-#hero .hero-container {
+#home .hero-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -277,7 +277,7 @@ h6 {
   padding: 0 15px;
 }
 
-#hero h1 {
+#home h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
@@ -285,7 +285,7 @@ h6 {
   color: #fff;
 }
 
-#hero h2 {
+#home h2 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 13px;
@@ -294,32 +294,32 @@ h6 {
   text-transform: uppercase;
 }
 
-#hero .btn-scroll {
+#home .btn-scroll {
   transition: 0.4s;
   color: rgba(255, 255, 255, 0.6);
   animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
-#hero .btn-scroll i {
+#home .btn-scroll i {
   font-size: 48px;
 }
 
-#hero .btn-scroll:hover {
+#home .btn-scroll:hover {
   color: #3c9e59;
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #home {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 575px) {
-  #hero h1 {
+  #home h1 {
     font-size: 40px;
   }
 
-  #hero h2 {
+  #home h2 {
     text-align: center;
     margin-bottom: 30px;
   }
