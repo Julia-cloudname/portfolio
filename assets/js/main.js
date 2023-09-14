@@ -62,6 +62,12 @@
   onscroll(document, navbarlinksActive)
 
   /**
+   * Navbar links active state on new page
+   */
+
+  
+
+  /**
    * Scrolls to an element with header offset
    */
   const scrollto = (el) => {
