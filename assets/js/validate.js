@@ -1,21 +1,3 @@
-// function sendMail(contactForm) {
-//     emailjs.send("service_7x3q052", "template_ab4xh13", {
-//         "from_name": contactForm.name.value,
-//         "from_email": contactForm.emailaddress.value,
-//         "project_request": contactForm.projectsummary.value
-//     })
-//     .then(
-//         function(response) {
-//             console.log("SUCCESS", response);
-//         },
-//         function(error) {
-//             console.log("FAILED", error);
-//         }
-//     );
-    
-//     return false;  // To block from loading a new page
-// }
-
 function validateForm(form) {
     let isValid = true;
 
@@ -64,30 +46,14 @@ function sendMail(contactForm) {
         .then(
             function(response) {
                 console.log("SUCCESS", response);
-                displaySuccessMessage();
+                alert('Your message has been sent. Thank you!');
             },
             function(error) {
                 console.log("FAILED", error);
-                displayErrorMessage();
+                alert('Failed to send the message. Please try again later.');
             }
         );
     }
     
     return false;   
-}
-
-function displaySuccessMessage() {
-    const formContainer = document.getElementById("form-container");
-    formContainer.innerHTML = '<div class="success-message">Your message has been sent. Thank you!</div>';
-    const successMessage = formContainer.querySelector('.success-message');
-    successMessage.style.color = '#3c9e59';  
-    successMessage.style.textAlign = 'center';  
-}
-
-function displayErrorMessage() {
-    const formContainer = document.getElementById("form-container");
-    formContainer.innerHTML = '<div class="error-message">Failed to send the message. Please try again later.</div>';
-    const errorMessage = formContainer.querySelector('.error-message');
-    errorMessage.style.color = '#ed3c0d';  
-    errorMessage.style.textAlign = 'center';  
 }
