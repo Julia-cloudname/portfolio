@@ -7,7 +7,7 @@ Welcome to my portfolio website! This portfolio showcases my work as a Full-Stac
 <hr>
 
 ## About Me
-I'm Yuliia Maliuk, a passionate Full-Stack Developer based in Ireland. My goal is to merge creativity and technology to build innovative web solutions. With a background in journalism, marketing, and proficiency in web development, I bring a unique perspective to my projects. I specialize in Python, JavaScript, and PostgreSQL, and I'm dedicated to creating user-centric, data-driven web applications.
+I'm Yuliia Maliuk, a passionate Full-Stack Developer. My goal is to merge creativity and technology to build innovative web solutions. With a background in journalism, marketing, and proficiency in web development, I bring a unique perspective to my projects. I specialize in Python, JavaScript, and PostgreSQL, and I'm dedicated to creating user-centric, data-driven web applications.
 
 ## Skills
 - JavaScript
